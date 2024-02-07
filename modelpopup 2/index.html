@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Poupup model</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+      .modelhead1{
+        background-color: #0c85fd;
+        background-image: linear-gradient(62deg,#0c85fd 0%, #3837396a 100%);
+        color: white;
+        margin-bottom: -2px;
+       
+      }
+      .modelhead1 h1{
+        font-size: 25px;
+        font-weight: 700;
+      }
+      .modelhead1 h5{
+        font-size: 18px;
+      } 
+   .closebtn{
+    position: absolute;
+    top:-4%;
+    right: -4%;  
+   }
+
+
+.feature{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+justify-content:space-evenly;
+width: 100%;
+/* height: 60%; */
+background-color: black;
+background-image: linear-gradient( 110.3deg,  rgba(73,93,109,1) 4.3%, rgba(49,55,82,1) 96.7% );
+color: white;
+padding-bottom: -100px;
+
+
+}
+.featurebox{
+   /* background: red; */
+   width: 100px;
+   height: 100px;
+   margin: auto;
+padding-top: 10px;
+margin-bottom: -10px;
+}
+
+.featurebox img{
+  max-width:100%;
+  height: 40%;
+  margin-top: -20px;
+}
+
+.featurebox h1{
+  font-size: 18px;
+  text-align: left;
+
+  
+}
+.featurebox p{
+  font-size: 12px;
+  text-align: left;
+  font-weight: 500;
+  white-space: nowrap;
+  
+}
+.showpopup{
+  display: none;
+}
+
+
+
+/* .............   Media Query    .......... */
+
+
+
+@media screen and (max-width: 530px) {
+  /* CSS rules for small screens */
+
+  .modelhead1 h1{
+        font-size: 16px;
+        font-weight: 400;
+      }
+      .modelhead1 h5{
+        font-size: 10px;
+      }
+
+.feature{
+  display: grid;
+grid-template-columns: repeat(2, 1fr);
+justify-content:space-evenly;
+width: 100%;
+height: auto;
+background-color: black;
+background-image: linear-gradient( 110.3deg,  rgba(73,93,109,1) 4.3%, rgba(49,55,82,1) 96.7% );
+color: white;
+padding-left: 5px;
+align-items: center;
+}
+
+
+.featurebox img{
+  max-width:100%;
+
+  /* margin: auto; */
+  margin-top: -20px;
+
+}
+
+.featurebox h1{
+  font-size: 15px;
+  text-align: left;
+  
+  
+}
+.featurebox p{
+  font-size: 13px;
+  text-align: left;
+  white-space: nowrap;
+  
+}
+
+}
+
+
+
+
+
+ 
+  
+   
+     </style>
+
+  </head>
+
+ 
+
+
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+
+ 
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" class="showpopup" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="margin-top: 50px;" >  
+      <!-- " style="width: 800px; margin-left: -35%; " -->
+      <div class="modal-header modelhead1 d-block max-auto ">
+
+        <h1 class="modal-title text-center" id="exampleModalLabel"  >100% Placement Support Program</h1>
+        <h5 class="modal-title text-center" id="exampleModalLabel"  >Limited seats for up to 30% Scholarship</h5>
+              
+      </div>
+      <button type="button" class="close closebtn"   class=" custom-close-btn" data-dismiss="modal" aria-label="Close">
+        <!-- <span class="rounded-circle" aria-hidden="true">&times;</span> -->
+       <img src="closebtn.png" alt="" class="bg-gray " style="width: 35px;">
+      </button>
+     
+
+
+              <div class="feature">
+                <div class="featurebox">
+                  <p>Certification from</p>
+                  <!-- <p>Students Placed</p> -->
+               <img src="iitguhati-img.png" alt="iitguhatiimage"/>
+                </div>
+
+                <div class="featurebox">
+                  <h1>8 LPA</h1>
+                  <p>Avg Salary</p>
+                </div>
+                
+                <div class="featurebox">
+                  <h1>33 LPA</h1>
+                  <p>Highest Salary</p>
+                </div>
+                <div class="featurebox">
+                  <h1>2000+</h1>
+                  <p style="margin-right: -10px;">Students Placed</p>
+                </div>
+                
+                
+              </div>
+
+          
+      
+     
+
+      <!-- form -->
+
+      <form class="TalktoCounsellormb mt-3" method="post" onsubmit="return false">
+        <div style="padding: 0 10%; ">
+            <div class="row">
+              <div class="col-12 col-md-6 col-sm-12 ">
+                <input type="hidden" name="url_source" class="enqurl_source">
+                <input type="hidden" name="form_name" value="enquire now popup form details">
+                <input type="text" name="fullname" class="form-control iitgdwninpt" placeholder="Enter Name*" minlength="2" style="margin-bottom:10px">
+                <input type="tel" name="mobileno" class="form-control iitgdwninpt" placeholder="Enter Mobile Number*" minlength="7" maxlength="13" style="margin-bottom:10px">
+                <input type="email" name="email" class="form-control iitgdwninpt" placeholder="Enter Email Address*" style="margin-bottom:10px">
+              </div>
+
+              <div class="col-12 col-md-6 col-sm-12">
+                <select name="workexperience" class="form-control iitgdwninpt" style="margin-bottom:10px">
+                  <option value="">Select Work Experience*</option>
+                  <option value="student">Student</option>
+                  <option value="work experience">Work Experience</option>
+              </select>
+              <select name="calltime" class="form-control iitgdwninpt" style="margin-bottom:10px">
+                  <option value="">Select Best Time To Call*</option>
+                  <option value="10 am - 12 pm">10 am - 12 pm</option>
+                  <option value="12 pm - 2 pm">12 pm - 2 pm</option>
+                  <option value="2 pm - 4 pm">2 pm - 4 pm</option>
+                  <option value="4 pm - 6 pm">4 pm - 6 pm</option>
+                  <option value="6 pm - 7 pm">6 pm - 7 pm</option>
+              </select>
+              </div>
+            </div>
+            
+            <input type="submit" value="Enquire Now" class="form-control text-center text-white iitgdwninptbtn" style="background: #FFA800;">
+            <div class="popup-form-term-condition pb-4">By submitting the form, you agree to our <a href="<?php echo base_url(); ?>term-and-condition" class="pop-term-and-condition-btn">Terms and Conditions</a> and our <a href="<?php echo base_url(); ?>privacy-policies" class="pop-term-and-condition-btn">Privacy Policy</a>.</div>
+        </div>
+        <p class="text-success h6 pt-1 hide ensuccess-msg"></p>
+        <p class="text-danger h6 pt-1 hide enerror-msg"></p>
+    </form>
+
+    
+    </div>
+  </div>
+</div>
+
+ 
+  </body>
+</html>
+<script>
+  const showpopup = document.querySelector(".showpopup");
+  const closebtn = document.querySelector(".closebtn")
+  window.onload = function(){
+    setTimeout(function(){
+      showpopup.style.display = "block"
+    }, 3000)
+  }
+  closebtn.addEventListener(click,()=>{
+    showpopup.style.display = "none"
+  })
+</script>
