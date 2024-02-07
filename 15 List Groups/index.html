@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Group-list</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+
+
+     <div class="container">
+    <h1>Basic List Groups</h1>
+    <p>The most basic list group is an unordered list with list items:</p>
+    <p>To create a basic list group, use an <code> ul </code> element with class .list-group, and <code> li </code> elements with class <code>.list-group-item:</code></p>
+    <ul class="list-group">
+        <li class="list-group-item">First item</li>
+        <li class="list-group-item">Second item</li>
+        <li class="list-group-item">Third item</li>
+      </ul>
+
+
+    <br><br><br><br>
+
+
+
+    <h2>Active Item in a List Group</h2>
+    Use the <code>.active</code> class to highlight the current item:
+  <ul class="list-group">
+    <li class="list-group-item active">Active item</li>
+    <li class="list-group-item">Second item</li>
+    <li class="list-group-item">Third item</li>
+  </ul>
+
+
+
+
+
+  <br><br><br><br>
+  <h2>List Group With Linked Items</h2>
+
+  To create a list group with linked items, use <div> instead of <ul> and <a> instead of <li>. Optionally, add the .list-group-item-action class if you want a grey background color on hover:
+   
+  
+    <div class="list-group">
+      <a href="#" class="list-group-item list-group-item-action">First item</a>
+      <a href="#" class="list-group-item list-group-item-action">Second item</a>
+      <a href="#" class="list-group-item list-group-item-action">Third item</a>
+    </div>
+
+
+    <br><br><br><br><br><br>
+
+
+    <h2>List Group With a Disabled Item</h2>
+    <p>The <code>.disabled</code> class adds a lighter text color to the disabled item. And if used on links, it will remove the default hover effect.</p>
+    <div class="list-group">
+      <a href="#" class="list-group-item disabled">Disabled item</a>
+      <a href="#" class="list-group-item disabled">Disabled item</a>
+      <a href="#" class="list-group-item">Third item</a>
+    </div>
+
+
+
+
+
+
+    <br><br><br><br><br><br>
+    <div class="">
+      <h2>Flush / Remove Borders</h2>
+      <p>Use the <code>.list-group-flush</code> class to remove some borders and rounded corners:</p>
+    </div>
+      
+    <div class="container">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">First item</li>
+        <li class="list-group-item">Second item</li>
+        <li class="list-group-item">Third item</li>
+        <li class="list-group-item">Fourth item</li>
+      </ul>
+    </div>
+
+
+
+
+
+    <br><br><br><br><br><br>
+<div class="">
+  <h2>Horizontal List Groups</h2>
+  <p>The <code>.list-group-horizontal</code> class displays the list items horizontally instead of vertically:</p>
+  <ul class="list-group list-group-horizontal">
+    <li class="list-group-item">First item</li>
+    <li class="list-group-item">Second item</li>
+    <li class="list-group-item">Third item</li>
+    <li class="list-group-item">Fourth item</li>
+  </ul>
+</div>
+
+
+
+
+
+<br><br><br><br><br><br>
+<h2>List Group With Contextual Classes</h2>
+The classes for coloring list-items are: <code> .list-group-item-success, list-group-item-secondary, list-group-item-info, list-group-item-warning, .list-group-item-danger, .list-group-item-primary, list-group-item-dark and list-group-item-light,:  </code>
+<ul class="list-group">
+  <li class="list-group-item list-group-item-success">Success item</li>
+  <li class="list-group-item list-group-item-secondary">Secondary item</li>
+  <li class="list-group-item list-group-item-info">Info item</li>
+  <li class="list-group-item list-group-item-warning">Warning item</li>
+  <li class="list-group-item list-group-item-danger">Danger item</li>
+  <li class="list-group-item list-group-item-primary">Primary item</li>
+  <li class="list-group-item list-group-item-dark">Dark item</li>
+  <li class="list-group-item list-group-item-light">Light item</li>
+</ul>
+
+
+
+
+
+
+<br><br><br><br><br><br>
+<h2>Linked Items With Contextual Classes</h2>
+<p>Move the mouse over the linked items to see the hover effect:</p>
+<div class="list-group">
+  <a href="#" class="list-group-item list-group-item-action">Action item</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-success">Success item</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">Secondary item</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-info">Info item</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Warning item</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Danger item</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Primary item</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-dark">Dark item</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-light">Light item</a>
+</div>
+
+
+
+
+
+
+<br><br><br><br><br><br>
+
+
+<h2>List Group With Badges</h2>
+<p>Combine <code>.badge</code> classes with utility/helper classes to add badges inside the list group:</p>
+<ul class="list-group">
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Inbox
+    <span class="badge badge-primary badge-pill">12</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Ads
+    <span class="badge badge-primary badge-pill">50</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Junk
+    <span class="badge badge-primary badge-pill">99</span>
+  </li>
+</ul>
+
+
+
+<br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
