@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    height: 500px;
+    border: 3px solid black;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    /* we can use felx-derecction: column, column reverse, etc */
+    justify-content: space-evenly;
+}
+.container>div:nth-child(1){
+background: red;
+}
+.container>div{
+    padding: 10px;
+
+}
+.container>div:nth-child(2){
+    background: green;
+}
+.container>div:nth-child(3){
+    background: blue;
+}
+.container>div:nth-child(4){
+    background:rgb(218, 145, 145);
+}
+.container>div:nth-child(5){
+    background: teal;
+}
+.container>div:nth-child(6){
+    background: aqua;
+}
+.container>div:nth-child(7){
+    background: yellow;
+}
+.container>div:nth-child(8){
+ background: gray;   
+}
+.container>div:nth-child(9){
+ background: purple;   
+}

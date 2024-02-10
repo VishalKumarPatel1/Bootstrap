@@ -1,0 +1,80 @@
+
+.head1{
+    margin:auto;
+    align-items: center;
+    
+}
+.head1 h1{
+    text-align: center;
+    width: 70%;
+    font-size: 40px;
+    margin: auto;
+}
+.para{
+    width: 70%;
+    margin: auto;
+    align-items: center;
+}
+.para p{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+}
+.card{
+   
+    
+    width: 800px;
+    height: 450px;
+    /* border: 1px solid red; */
+    margin: auto;
+    
+}
+.card1{
+    display:inline-block;
+    width: 250px;
+    margin-left: 10px;
+    height: 350px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 4%;
+    justify-content: center; 
+}
+
+.topbox{
+    text-align: center;
+    margin: auto;
+    padding-top: 2%;
+}
+.topbox h1{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: -15%;
+}
+.topbox h5{
+    color: green;
+    font-size: 27px;
+    margin-bottom: -5%;
+}
+.topbox p{
+    font-size: 13px;
+    color: gray;
+}
+
+.mediumbox{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.btn{
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid blue;
+  margin-top: 20%;
+}
+.btn h1{
+    color: blue;
+    font-size: 23px;
+    
+}
+
